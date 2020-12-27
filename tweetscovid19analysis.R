@@ -7,10 +7,10 @@ library(wordcloud)
 library(syuzhet)
 library(plotly)
 
-consumer_key = "Yy3Yl01EY3NQWMUbmJM5SqQhd"
-consumer_secret = "BiDYjPG22tJljKnYmON3tpuwpMdYCHtJK6fbHkgXqOMQiDHYnh"
-access_token = "1224344141401817089-D8KfBvhBqjhchFRXNp0yFk7BZXPMAP"
-access_secret = "0HP7tc48fuPTEUsNtg7uBlGr2eT2GrkLooKrZXKgjtuiq"
+consumer_key = "enter API key"
+consumer_secret = "enter API secret key"
+access_token = "enter access token"
+access_secret = "enter access secret token"
 
 # set up
 setup_twitter_oauth(consumer_key,consumer_secret,access_token, access_secret)
